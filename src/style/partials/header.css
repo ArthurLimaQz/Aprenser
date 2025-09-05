@@ -43,3 +43,11 @@
     text-underline-offset: 4px;
     text-decoration-thickness: 4px;
 }
+
+.barra-fixa{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}

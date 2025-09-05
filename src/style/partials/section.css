@@ -1,7 +1,6 @@
 @import url(/src/global/reset.css);
 
 
-
 .intro-content {
     width: 100%;
     display: flex;
@@ -14,23 +13,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.hero-section img{
+    width: 150%;    
 }
 
 .info-box {
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
 }
 
 .info-box p {
     font-family: Roboto;
-    font-size: 5rem;
-    text-align: start;
-    letter-spacing: 8px;
+    font-size: 4rem;
+    text-align: left;
+    letter-spacing: 5px;
     font-weight: 600;
 }
 
 .info-box a {
+    display: inline-block;
+    margin-top: 2rem;
     width: fit-content;
     font-family: Roboto;
     padding: .8rem 3rem .8rem 3rem;
@@ -128,7 +133,7 @@
 }
 
 .courses-link-espace {
-    margin: 1.6rem 0;
+    margin: 4rem 0 1.6rem 0;
 }
 
 .sobre-escola {
@@ -202,4 +207,8 @@
 
 .contatos_endereços {
     width: 20%;
+}
+
+.espaco-container{
+    padding: 11.5rem;
 }

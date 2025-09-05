@@ -13,18 +13,18 @@
 </head>
 
 <body>
-    <div class="container-barra">
+    <div class="container-barra barra-fixa">
         <header class="hero">
             <img src="./src/assets/images/logoAprenser.png" alt="Logo da Aprenser">
             <ul class="hero-menu">
                 <li class="hero-item">
-                    <a href="#">cursos</a>
+                    <a href="#cursos">cursos</a>
                 </li>
                 <li class="hero-item">
-                    <a href="#">nossa escola</a>
+                    <a href="#nossa_escola">nossa escola</a>
                 </li>
                 <li class="hero-item">
-                    <a href="#">contatos</a>
+                    <a href="#contato">contatos</a>
                 </li>
             </ul>
         </header>
@@ -36,11 +36,11 @@
                     <p>O saber é o que transforma nosso SER</p>
                     <a href="#">Saiba mais</a>
                 </div>
-                <img src="src/assets/images/HeroImage.png" alt="">
+                <img src="src/assets/images/HeroImage.png" alt="Mulher segurando uma flor">
             </section>
         </div>
-        <div class="courses-container">
-            <section class="courses-section">
+        <div class="courses-container espaco-container" id="cursos">
+            <section class="courses-section" >
                 <h1 class="courses-title">principais cursos</h1>
                 <div class="card-box">
                     <article class="course-card">
@@ -77,7 +77,7 @@
                 <a href="#" class="courses-link courses-link-espace">Ver mais cursos</a>
             </section>
         </div>
-        <div class="sobre-escola">
+        <div class="sobre-escola espaco-container" id="nossa_escola">
             <section class="sobre-escola__conteudo">
                 <img src="/src/assets/images/nossa-escola.png" alt="" class="sobre-escola__imagem">
                 <div class="sobre-escola__texto">
@@ -92,7 +92,7 @@
                 </div>
             </section>
         </div>
-        <div class="contato">
+        <div class="contato espaco-container" id="contato">
             <section class="contato__conteudo">
                 <h2 class="contato__titulo">Contatos</h2>
                 <iframe class="contato__mapa"
@@ -100,10 +100,10 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div class="contato_endereco">
-                    <p class="contatos_endereços">Contatos
+                    <address class="contatos_endereços">Contatos
                         Av. da Liberdade, 1001
                         Tel.: +351 21 123 456
-                        E-mail: contato@aprenser.com</p>
+                        E-mail: contato@aprenser.com</address>
                 </div>
             </section>
         </div>
